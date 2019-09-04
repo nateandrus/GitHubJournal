@@ -24,14 +24,14 @@ class JournalTableViewController: UITableViewController {
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return 3
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "DevmountainOOOOOHHHHYEEEEAAAAAH", for: indexPath)
 
-        cell.textLabel?.text = "WOWOWOWOWOWOWO"
+        cell.textLabel?.text = "yessir"
         cell.detailTextLabel?.text = "ooooohhhhhhhhh"
         cell.backgroundColor = .green
 
