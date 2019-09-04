@@ -32,10 +32,12 @@ class JournalTableViewController: UITableViewController {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "DevmountainOOOOOHHHHYEEEEAAAAAH", for: indexPath)
 
+
         cell.textLabel?.text = "yessir"
         cell.detailTextLabel?.text = "ooooohhhhhhhhh"
         cell.backgroundColor = .green
         cell.textLabel?.text = "Ian is cooler than Jax X100"
+
 
         return cell
     }
