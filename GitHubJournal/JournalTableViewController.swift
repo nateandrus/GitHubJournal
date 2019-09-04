@@ -13,6 +13,7 @@ class JournalTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
         title = "DEVHills"
         
         let red = CGFloat.random(in: 0...1)
