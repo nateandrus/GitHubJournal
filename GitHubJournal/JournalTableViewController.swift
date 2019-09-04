@@ -12,6 +12,8 @@ class JournalTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "DEVMOUNTAIN"
     }
 
     // MARK: - Table view data source
