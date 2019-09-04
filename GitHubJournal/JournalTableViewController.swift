@@ -25,7 +25,9 @@ class JournalTableViewController: UITableViewController {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "DevmountainOOOOOHHHHYEEEEAAAAAH", for: indexPath)
 
-        // Configure the cell...
+        cell.textLabel?.text = "WOWOWOWOWOWOWO"
+        cell.detailTextLabel?.text = "ooooohhhhhhhhh"
+        cell.backgroundColor = .green
 
         return cell
     }
