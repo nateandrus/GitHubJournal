@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1132742320217E001F6495 /* TVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1132722320217E001F6495 /* TVC.storyboard */; };
 		ED2AC0FD232018CA0057C744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2AC0FC232018CA0057C744 /* AppDelegate.swift */; };
 		ED2AC102232018CA0057C744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2AC100232018CA0057C744 /* Main.storyboard */; };
 		ED2AC105232018CA0057C744 /* GitHubJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED2AC103232018CA0057C744 /* GitHubJournal.xcdatamodeld */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E1132732320217E001F6495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GitHubJournal/Base.lproj/TVC.storyboard; sourceTree = "<group>"; };
 		ED2AC0F9232018CA0057C744 /* GitHubJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2AC0FC232018CA0057C744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED2AC101232018CA0057C744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		ED2AC0F0232018CA0057C744 = {
 			isa = PBXGroup;
 			children = (
+				7E1132722320217E001F6495 /* TVC.storyboard */,
 				ED2AC0FB232018CA0057C744 /* GitHubJournal */,
 				ED2AC0FA232018CA0057C744 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				ED2AC10A232018D10057C744 /* LaunchScreen.storyboard in Resources */,
 				ED2AC107232018D10057C744 /* Assets.xcassets in Resources */,
+				7E1132742320217E001F6495 /* TVC.storyboard in Resources */,
 				ED2AC102232018CA0057C744 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +151,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7E1132722320217E001F6495 /* TVC.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1132732320217E001F6495 /* Base */,
+			);
+			name = TVC.storyboard;
+			sourceTree = "<group>";
+		};
 		ED2AC100232018CA0057C744 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
