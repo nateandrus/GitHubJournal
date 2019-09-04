@@ -24,6 +24,18 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UN9-37-qkV" id="ouo-1a-Nbd">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AmE-Np-eoG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <state key="normal" title="Does Nothing"/>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="AmE-Np-eoG" firstAttribute="width" secondItem="ouo-1a-Nbd" secondAttribute="width" id="4uA-TZ-1tu"/>
+                                        <constraint firstItem="AmE-Np-eoG" firstAttribute="centerY" secondItem="ouo-1a-Nbd" secondAttribute="centerY" id="Oe3-Qy-Fqh"/>
+                                        <constraint firstItem="AmE-Np-eoG" firstAttribute="centerX" secondItem="ouo-1a-Nbd" secondAttribute="centerX" id="aaS-xW-LTS"/>
+                                        <constraint firstItem="AmE-Np-eoG" firstAttribute="height" secondItem="ouo-1a-Nbd" secondAttribute="height" id="bdq-w6-SpD"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
