@@ -14,6 +14,12 @@ class JournalTableViewController: UITableViewController {
         super.viewDidLoad()
         
         title = "DEVMOUNTAIN"
+        
+        let red = CGFloat.random(in: 0...1)
+        let green = CGFloat.random(in: 0...1)
+        let blue = CGFloat.random(in: 0...1)
+        let color = UIColor(displayP3Red: red, green: green, blue: blue, alpha: 1)
+        view.backgroundColor = color
     }
 
     // MARK: - Table view data source
@@ -30,9 +36,5 @@ class JournalTableViewController: UITableViewController {
         cell.backgroundColor = .green
 
         return cell
-    }
- 
-    // MARK: - Navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     }
 }
